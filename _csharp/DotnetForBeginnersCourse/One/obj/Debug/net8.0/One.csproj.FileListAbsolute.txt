@@ -1,0 +1,15 @@
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\bin\Debug\net8.0\One.exe
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\bin\Debug\net8.0\One.deps.json
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\bin\Debug\net8.0\One.runtimeconfig.json
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\bin\Debug\net8.0\One.dll
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\bin\Debug\net8.0\One.pdb
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.AssemblyInfoInputs.cache
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.AssemblyInfo.cs
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.csproj.CoreCompileInputs.cache
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.sourcelink.json
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.dll
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\refint\One.dll
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.pdb
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\One.genruntimeconfig.cache
+C:\GitHub\improved-fiesta\_csharp\DotnetForBeginnersCourse\One\obj\Debug\net8.0\ref\One.dll

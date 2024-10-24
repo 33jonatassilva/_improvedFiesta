@@ -1,0 +1,15 @@
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\bin\Debug\net8.0\OEx0001.exe
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\bin\Debug\net8.0\OEx0001.deps.json
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\bin\Debug\net8.0\OEx0001.runtimeconfig.json
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\bin\Debug\net8.0\OEx0001.dll
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\bin\Debug\net8.0\OEx0001.pdb
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.AssemblyInfoInputs.cache
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.AssemblyInfo.cs
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.csproj.CoreCompileInputs.cache
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.sourcelink.json
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.dll
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\refint\OEx0001.dll
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.pdb
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\OEx0001.genruntimeconfig.cache
+C:\GitHub\improved-fiesta\_csharp\Overload\OEx0001\obj\Debug\net8.0\ref\OEx0001.dll

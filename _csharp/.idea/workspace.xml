@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0722124f-e9a0-48ac-83b1-59212822676e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea._csharp.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea._csharp.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea._csharp.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea._csharp.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/Ex0001.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/bin/Debug/net8.0/Ex0001.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/bin/Debug/net8.0/Ex0001.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/bin/Debug/net8.0/Ex0001.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/bin/Debug/net8.0/Ex0001.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/bin/Debug/net8.0/Ex0001.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/Ex0001.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/ref/Ex0001.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Debug/net8.0/refint/Ex0001.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Ex0001.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Ex0001.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/Ex0001.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructors/Ex0001/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Constructors/Ex0001/Product.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Constructors/Ex0001/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Overload/OEx0001/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nDHD4yOaiKp714ppqyuMGEMnte" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0722124f-e9a0-48ac-83b1-59212822676e" name="Changes" comment="" />
+      <created>1728500604156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728500604156</updated>
+      <workItem from="1728500605329" duration="671000" />
+      <workItem from="1728582011505" duration="253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
