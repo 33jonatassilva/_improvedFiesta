@@ -2,16 +2,16 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace EasyManage.Entities;
+namespace EasyManage.Models;
 
 [PrimaryKey("Id")]
 public class Sale
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
-    public Guid ClientId { get; set; }
-    public Guid EmployeeId { get; set; }
+    public Guid Id { get; private set; } = Guid.NewGuid();
+    public string ClientId { get; set; }
+    public string EmployeeId { get; set; }
 
-    public List<SaleItems> SaleItems { get; set; } = new List<SaleItems>();git
+    public List<SaleItems> SaleItems { get; set; } = new List<SaleItems>();
     
     
     [ForeignKey("ClientId")]

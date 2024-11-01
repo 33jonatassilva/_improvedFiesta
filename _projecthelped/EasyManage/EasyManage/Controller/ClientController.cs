@@ -1,21 +1,27 @@
-﻿using Azure.Identity;
-using EasyManage.Entities;
+﻿using EasyManage.Models;
 using EasyManage.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace EasyManage.Controller;
 
-public class ClientController (AppDbContext context)
-{
-
-    public async Task<Client> AddClient(Client client)
+    public class ClientController(AppDbContext context)
     {
-        if (client is null) throw new ArgumentNullException(nameof(client));
-        await context.Clients.AddAsync(client);
-        await context.SaveChangesAsync();
+        public async Task AddClientAsync(Client client)
+        {
+            try
+            {
+                if (client is null) throw new ArgumentNullException(nameof(client));
 
-        return  client;
-    }
+                await context.Clients.AddAsync(client);
+                await context.SaveChangesAsync();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+    
     
     
     public async Task<List<Client>> ListClientsAsync()
@@ -24,8 +30,8 @@ public class ClientController (AppDbContext context)
         return clients;
     }
 
-    public async Task<Client> GetClientByIdAsync(Guid clientId)
-        => await context.Clients.FirstOrDefaultAsync(c => c.Id == clientId);
+    public async Task<Client> GetClientByIdAsync(string clientId)
+        => await context.Clients.FirstOrDefaultAsync(c => c.Cpf == clientId);
     
     
     
@@ -40,15 +46,16 @@ public class ClientController (AppDbContext context)
         
         client.FirstName = clientUpdate.FirstName;
         client.LastName = clientUpdate.LastName;
-        client.ClientBudgetRate = clientUpdate.ClientBudgetRate;
+        client.EClientBudgetRate = clientUpdate.EClientBudgetRate;
         
         context.Update(client);
         context.SaveChanges();
     }
 
-    public async Task<Client> DeleteClientByIdAsync(Guid clientId)
+    public async Task<Client> DeleteClientByIdAsync(string clientId)
     {
-        var client = await context.Clients.FirstOrDefaultAsync(c => c.Id == clientId);
+        
+        var client = await context.Clients.FirstOrDefaultAsync(c => c.Cpf == clientId);
         context.Clients.Remove(client);
 
         return client;

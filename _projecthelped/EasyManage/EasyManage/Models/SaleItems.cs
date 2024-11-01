@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EasyManage.Entities;
+namespace EasyManage.Models;
 
-[PrimaryKey("SaleId")]
+[PrimaryKey("Id")]
 public class SaleItems
 {
-    
+    public int Id { get; set; }
     public Guid SaleId { get; set; }
     public Guid ProductId { get; set; }
     public int Quantity { get; set; }

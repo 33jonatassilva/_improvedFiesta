@@ -1,11 +1,20 @@
 ﻿
 
+using EasyManage.Builders;
+using EasyManage.Controller;
+using EasyManage.Data;
+
 namespace EasyManage;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        AppDbContext db = new AppDbContext();
+        ClientController clientController = new ClientController(db);
+
+
+        clientController.AddClientAsync(ClientBuilder.Build());
+
     }
 }

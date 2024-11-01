@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EasyManage.Entities;
+namespace EasyManage.Models;
 
 
 public class Product
 {   
-    public Guid Id { get; set; } = Guid.NewGuid();
+    public Guid Id { get; private set; } = Guid.NewGuid();
     [MinLength(3)]
     [MaxLength(50)]
     public string Name { get; set; }

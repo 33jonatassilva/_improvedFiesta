@@ -1,6 +1,6 @@
 ﻿namespace EasyManage.Enums;
 
-public enum ClientBudgetRate
+public enum EEmployeeLevel
 {
     
 }
