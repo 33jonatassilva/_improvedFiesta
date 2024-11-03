@@ -10,6 +10,7 @@ namespace Blog.Controllers;
 
 public class CategoryController : ControllerBase
 {
+<<<<<<< HEAD
     [HttpGet("v1/categories/{id:int}")]
     public async Task<IActionResult> GetAsync(
         [FromRoute] int id,
@@ -95,6 +96,26 @@ public class CategoryController : ControllerBase
         
         context.Categories.Remove(category);
         
+        return Ok(category);
+=======
+    [HttpGet("categories")]
+    public async Task<IActionResult> GetAsync(
+        [FromServices] BlogDataContext context)
+    {
+        var categories =  await context.Categories.ToListAsync();
+        return Ok(categories);
+>>>>>>> e621fb7b79c47146d98a2237b042694bea6f7108
+    }
+    
+    
+    [HttpGet("categories/{id:int}")]
+    public async Task<IActionResult> GetAsync(
+        [FromRoute] int id,
+        [FromServices] BlogDataContext context)
+    {
+    
+    
+        var category =  await context.Categories.FirstOrDefaultAsync(x => x.Id == id);
         return Ok(category);
     }
 }
