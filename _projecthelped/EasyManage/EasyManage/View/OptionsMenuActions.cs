@@ -28,7 +28,8 @@ public class OptionsMenuActions : IOptionsMenuActions
         switch (optionSelected)
         {
             case "1":
-                Client client = new Client
+            
+                var client = new Client
                 {
                     FirstName = "Jonatas",
                     LastName = "Jones",
@@ -36,12 +37,12 @@ public class OptionsMenuActions : IOptionsMenuActions
                     BirthDate = DateTime.ParseExact("18/04/2003", "dd/MM/yyyy", CultureInfo.InvariantCulture )
                 };
 
-                await _clientService.AddClientAsync(client);
+                _clientService.AddClient(client);
                 
                 break;
                 
             case "2":
-                var clients = await _clientService.GetAllClientsAsync();
+                var clients = _clientService.GetAllClients();
                 
                 foreach (var item in clients)
                 {

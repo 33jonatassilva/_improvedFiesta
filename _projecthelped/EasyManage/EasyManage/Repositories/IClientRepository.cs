@@ -4,14 +4,9 @@ namespace EasyManage.Repositories;
 
 public interface IClientRepository
 {
-    Task<Task> AddClientAsync(Client client);
-    
-    Task <List<Client>> GetAllClientsAsync();
-    
-    
-    Task<Client> GetClientByIdAsync(string cpf);
-    
+    void AddClient(Client client);
+    List<Client> GetAllClients();
+    Client GetClientById(string cpf);
     void ClientUpdate(string cpf, Client client);
-    
-    Task<Client> DeleteClientAsync(string cpf);
+    void DeleteClient(string cpf);
 }

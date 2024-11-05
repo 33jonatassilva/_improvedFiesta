@@ -1,6 +1,8 @@
 ﻿
 
+using System.Globalization;
 using EasyManage.Data;
+using EasyManage.Models;
 using EasyManage.Repositories;
 using EasyManage.Services;
 using EasyManage.View;
@@ -21,7 +23,8 @@ class Program
         var serviceProvider = serviceCollection.BuildServiceProvider();
 
         var menu = serviceProvider.GetService<IOptionsMenuActions>();
-        if (menu != null) menu.OptionsInitialMenu();
+        
+       if (menu != null) menu.OptionsInitialMenu();
 
         static void ConfigureServices(IServiceCollection services)
         {
@@ -31,8 +34,4 @@ class Program
                 .AddScoped<IOptionsMenuActions, OptionsMenuActions>();
         }
     }
-
-   
-    
-    
 }

@@ -14,20 +14,20 @@ namespace EasyManage.Services;
         public ClientService(IClientRepository clientRepository) 
             => _clientRepository = clientRepository;
     
-        public async Task AddClientAsync(Client client)
-            => await _clientRepository.AddClientAsync(client);
+        public void AddClient(Client client)
+            => _clientRepository.AddClient(client);
     
-        public async Task<List<Client>> GetAllClientsAsync()
-           => await _clientRepository.GetAllClientsAsync();
+        public List<Client> GetAllClients()
+           => _clientRepository.GetAllClients();
         
-        public async Task<Client> GetClientByIdAsync(string cpf)
-            => await _clientRepository.GetClientByIdAsync(cpf);
+        public Client GetClientById(string cpf)
+            => _clientRepository.GetClientById(cpf);
         
         public void ClientUpdate(string cpf, Client clientUpdate)
             => _clientRepository.ClientUpdate(cpf, clientUpdate);
 
-        public async Task<Client> DeleteClientByIdAsync(string cpf)
-            => await _clientRepository.DeleteClientAsync(cpf);
+        public void DeleteClientById(string cpf)
+            => _clientRepository.DeleteClient(cpf);
     
     
 }

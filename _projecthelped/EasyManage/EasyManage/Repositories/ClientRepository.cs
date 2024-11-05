@@ -9,28 +9,25 @@ public class ClientRepository : IClientRepository
     private readonly AppDbContext _context;
 
     public ClientRepository(AppDbContext context)
-    {
-        _context = context;
-    }
+        => _context = context;
+    
 
-    public async Task<Task> AddClientAsync(Client client)
+    public void AddClient(Client client)
     {
-        await _context.Clients.AddAsync(client);
-        await _context.SaveChangesAsync();
-        
-        return Task.CompletedTask;
+        _context.Clients.Add(client);
+        _context.SaveChanges();
     }
     
     
-    public async Task<List<Client>> GetAllClientsAsync()
+    public List<Client> GetAllClients()
     {
-        return await _context.Clients.ToListAsync();
+        return _context.Clients.ToList();
     }
     
     
-    public async Task<Client> GetClientByIdAsync(string cpf)
+    public Client GetClientById(string cpf)
     {
-        Client client =  await _context.Clients.FirstOrDefaultAsync(x => x.Cpf == cpf);
+        var client =  _context.Clients.FirstOrDefault(x => x.Cpf == cpf);
         _context.Clients.Remove(client);
 
         return client;
@@ -42,13 +39,11 @@ public class ClientRepository : IClientRepository
         _context.SaveChanges();
     }
 
-    public async Task<Client> DeleteClientAsync(string cpf)
+    public void DeleteClient(string cpf)
     {
-        Client client = await _context.Clients.FirstOrDefaultAsync(x => x.Cpf == cpf);
+        var client = _context.Clients.FirstOrDefault(x => x.Cpf == cpf);
         _context.Clients.Remove(client);
         _context.SaveChanges();
-        
-        return client;
     }
 
 
