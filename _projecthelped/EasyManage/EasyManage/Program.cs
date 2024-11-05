@@ -1,20 +1,38 @@
 ﻿
 
-using EasyManage.Builders;
-using EasyManage.Controller;
 using EasyManage.Data;
+using EasyManage.Repositories;
+using EasyManage.Services;
+using EasyManage.View;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace EasyManage;
 
 class Program
 {
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
-        AppDbContext db = new AppDbContext();
-        ClientController clientController = new ClientController(db);
+        
+        
+        var serviceCollection = new ServiceCollection();
+        
+        ConfigureServices(serviceCollection);
+        
+        var serviceProvider = serviceCollection.BuildServiceProvider();
 
+        var menu = serviceProvider.GetService<IOptionsMenuActions>();
+        if (menu != null) menu.OptionsInitialMenu();
 
-        clientController.AddClientAsync(ClientBuilder.Build());
-
+        static void ConfigureServices(IServiceCollection services)
+        {
+            services.AddDbContext<AppDbContext>()
+                .AddScoped<IClientRepository, ClientRepository>()
+                .AddScoped<IClientService, ClientService>()
+                .AddScoped<IOptionsMenuActions, OptionsMenuActions>();
+        }
     }
+
+   
+    
+    
 }

@@ -15,6 +15,7 @@ public class Client : People
     {
         return $"Id: {Cpf}\n" +
                $"Name: {FirstName} {LastName}\n" +
+               $"BirthDate: {BirthDate}\n" +
                $"LastPurchase: {LastPurchase}\n" +
                $"ClientBudgetRate: {EClientBudgetRate}";
     }
