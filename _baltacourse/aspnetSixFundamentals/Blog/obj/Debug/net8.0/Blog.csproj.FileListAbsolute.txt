@@ -130,9 +130,9 @@ C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Blog.props
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\staticwebassets.pack.json
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\scopedcss\bundle\Blog.styles.css
-C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\Blog.csproj.Up2Date
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\Blog.dll
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\refint\Blog.dll
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\Blog.pdb
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\Blog.genruntimeconfig.cache
 C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\ref\Blog.dll
+C:\GitHub\improved-fiesta\_baltacourse\aspnetSixFundamentals\Blog\obj\Debug\net8.0\Blog.csproj.CopyComplete

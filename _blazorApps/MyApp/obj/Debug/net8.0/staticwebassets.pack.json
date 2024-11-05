@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\GitHub\\improved-fiesta\\_blazorApps\\MyApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\GitHub\\improved-fiesta\\_blazorApps\\MyApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\GitHub\\improved-fiesta\\_blazorApps\\MyApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\GitHub\\improved-fiesta\\_blazorApps\\MyApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\GitHub\\improved-fiesta\\_blazorApps\\MyApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyApp.props",
+      "PackagePath": "build\\MyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyApp.props",
+      "PackagePath": "buildMultiTargeting\\MyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyApp.props",
+      "PackagePath": "buildTransitive\\MyApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

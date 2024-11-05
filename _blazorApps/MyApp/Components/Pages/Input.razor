@@ -1,0 +1,14 @@
+﻿@page "/Input"
+@rendermode InteractiveServer
+
+<h3>Input</h3>
+
+<input @bind="_text" />
+<button @onclick="() => _text = string.Empty">Clear</button>
+
+<p>@_text é a string inserida</p>
+
+
+@code {
+    string _text = "";
+}
