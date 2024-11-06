@@ -1,6 +1,7 @@
 ﻿using EasyManage.Data;
 using EasyManage.Models;
-using Microsoft.EntityFrameworkCore;
+using EasyManage.Repositories.Interfaces;
+
 
 namespace EasyManage.Repositories;
 
@@ -33,10 +34,12 @@ public class ClientRepository : IClientRepository
         return client;
     }
 
-    public void ClientUpdate(string cpf, Client client)
-    {
+    public void ClientUpdate(Client client)
+    {   
         _context.Clients.Update(client);
         _context.SaveChanges();
+
+        Console.WriteLine(client.ToString());
     }
 
     public void DeleteClient(string cpf)

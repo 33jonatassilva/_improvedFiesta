@@ -1,9 +1,8 @@
 ﻿
 
-using System.Globalization;
 using EasyManage.Data;
-using EasyManage.Models;
 using EasyManage.Repositories;
+using EasyManage.Repositories.Interfaces;
 using EasyManage.Services;
 using EasyManage.View;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,8 +13,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        
-        
         var serviceCollection = new ServiceCollection();
         
         ConfigureServices(serviceCollection);
@@ -24,7 +21,7 @@ class Program
 
         var menu = serviceProvider.GetService<IOptionsMenuActions>();
         
-       if (menu != null) menu.OptionsInitialMenu();
+        if (menu != null) menu.OptionsInitialMenu();
 
         static void ConfigureServices(IServiceCollection services)
         {
