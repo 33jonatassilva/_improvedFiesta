@@ -42,6 +42,14 @@ public class EmployeeRepository : IEmployeeRepository
             Console.WriteLine(employee.ToString());
         }
 
+        public void Demiss(string cpf)
+        {
+            var employee = _context.Employees.FirstOrDefault(x => x.Cpf == cpf);
+            employee.OffboardingDate = DateTime.Now;
+            _context.Employees.Update(employee);
+            _context.SaveChanges();
+        }
+
         public void DeleteEmployee(string cpf)
         {
             var employee = _context.Employees.FirstOrDefault(x => x.Cpf == cpf);
