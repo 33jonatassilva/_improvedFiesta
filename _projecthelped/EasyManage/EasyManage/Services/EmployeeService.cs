@@ -23,6 +23,10 @@ public class EmployeeService : IEmployeeService
         public void EmployeeUpdate(Employee employeeUpdate)
             => _employeeRepository.EmployeeUpdate(employeeUpdate);
 
+        public void DemissEmployee(string cpf)
+            => _employeeRepository.DeleteEmployee(cpf);
+    
+
         public void DeleteEmployeeById(string cpf)
             => _employeeRepository.DeleteEmployee(cpf);
 }

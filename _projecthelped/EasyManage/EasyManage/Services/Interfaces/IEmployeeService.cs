@@ -8,5 +8,6 @@ public interface IEmployeeService
     List<Employee> GetAllEmployees();
     Employee GetEmployeeById(string id);
     void EmployeeUpdate(Employee employeeUpdate);
+    void DemissEmployee(string cpf);
     void DeleteEmployeeById(string cpf);
 }
