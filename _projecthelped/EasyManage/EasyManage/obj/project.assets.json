@@ -4702,7 +4702,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\j.silva\\.nuget\\packages\\": {}
+    "C:\\Users\\jonat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4710,11 +4710,11 @@
       "projectUniqueName": "C:\\GitHub\\improved-fiesta\\_projecthelped\\EasyManage\\EasyManage\\EasyManage.csproj",
       "projectName": "EasyManage",
       "projectPath": "C:\\GitHub\\improved-fiesta\\_projecthelped\\EasyManage\\EasyManage\\EasyManage.csproj",
-      "packagesPath": "C:\\Users\\j.silva\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\improved-fiesta\\_projecthelped\\EasyManage\\EasyManage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\j.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4722,7 +4722,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4735,11 +4734,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4773,7 +4767,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

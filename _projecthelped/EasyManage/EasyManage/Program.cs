@@ -1,8 +1,6 @@
 ﻿
 
-using System.Globalization;
 using EasyManage.Data;
-using EasyManage.Models;
 using EasyManage.Repositories;
 using EasyManage.Services;
 using EasyManage.View;
@@ -14,7 +12,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        
         
         var serviceCollection = new ServiceCollection();
         
