@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
 using EasyManage.Builders;
 using EasyManage.Enums;
+using EasyManage.Repositories.Interfaces;
 using EasyManage.Services;
 using EasyManage.Services.Interfaces;
 
@@ -11,11 +12,18 @@ public class OptionsMenuActions : IOptionsMenuActions
 {
     private readonly IClientService _clientService;
     private readonly IEmployeeService _employeeService;
+    private readonly IProductService _productService;
 
-    public OptionsMenuActions(IClientService clientService, IEmployeeService employeeService)
+    public OptionsMenuActions
+    (
+    IClientService clientService,
+    IEmployeeService employeeService,
+    IProductService productService
+    )
     {
         _clientService = clientService;
         _employeeService = employeeService;
+        _productService = productService;
     }
 
    
@@ -162,66 +170,66 @@ public class OptionsMenuActions : IOptionsMenuActions
 
         if (optionSelected == "3")
         {
-            Print.MenuClientsOption();
+            Print.MenuProductsOption();
 
-            var optionMenuClientSelected = Console.ReadLine();
+            var optionMenuProductSelected = Console.ReadLine();
 
-            switch (optionMenuClientSelected)
+            switch (optionMenuProductSelected)
             {
                 case "1":
 
-                    _clientService.AddClient(Builder.Client());
+                    _productService.AddProduct(Builder.Product());
                     return;
 
                 case "2":
 
-                    var clients = _clientService.GetAllClients();
+                    var products = _productService.GetAllProducts();
 
-                    foreach (var item in clients)
-                        Console.WriteLine(item.ToString());
+                    foreach (var product in products)
+                        Console.WriteLine(product.ToString());
 
                     return;
 
                 case "3":
 
-                    var client = _clientService.GetClientById(Console.ReadLine());
+                    var client = _productService.GetProductById(Guid.Parse(Console.ReadLine()));
                     return;
 
                 case "4":
-                    Print.MenuClientUpdateOptions();
+                    Print.MenuProductUpdateOptions();
 
-                    var menuClientSelected = Console.ReadLine();
+                    var menuProductSelected = Console.ReadLine();
 
                     Console.Write("\nType the CPF you want to update: ");
                     var cpf = Console.ReadLine();
-                    var clientUpdater = _clientService.GetClientById(cpf);
+                    var productUpdater = _productService.GetProductById(cpf);
 
-                    switch (menuClientSelected)
+                    switch (menuProductSelected)
                     {
                         case "1":
                             Console.Write("Type the First name: ");
-                            clientUpdater.FirstName = Console.ReadLine();
+                            ProductUpdater.FirstName = Console.ReadLine();
                             return;
                         case "2":
                             Console.Write("Type the Last name: ");
-                            clientUpdater.LastName = Console.ReadLine();
+                            productUpdater.LastName = Console.ReadLine();
                             return;
                         case "3":
                             Console.Write("Type the Birth Date: ");
-                            clientUpdater.BirthDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy",
+                            productUpdater.BirthDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy",
                                 CultureInfo.InvariantCulture);
                             return;
                         case "4":
-                            Console.Write("Type the Client Budget Rate: ");
-                            clientUpdater.EClientBudgetRate = (EClientBudgetRate)int.Parse(Console.ReadLine());
+                            Console.Write("Type the Product Budget Rate: ");
+                            productUpdater.EProductBudgetRate = (EProductBudgetRate)int.Parse(Console.ReadLine());
                             return;
                     }
 
-                    _clientService.ClientUpdate(clientUpdater);
+                    _productService.ProductUpdate(productUpdater);
                     break;
 
                 case "5":
-                    _clientService.DeleteClientById(Console.ReadLine());
+                    _productService.DeleteProductById(Console.ReadLine());
                     return;
 
             }

@@ -14,10 +14,7 @@ public class ProductRepository : IProductRepository
         _context = context;
     }
     
-    
-    
-    
-    public List<Product> GetProducts()
+    public List<Product> GetAllProducts()
     {
         return _context.Products.ToList();
     }
@@ -34,6 +31,8 @@ public class ProductRepository : IProductRepository
         _context.Products.Add(product);
         _context.SaveChanges();
     }
+
+
 
     public void EditProduct(Product product)
     {

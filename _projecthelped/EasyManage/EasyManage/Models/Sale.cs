@@ -15,8 +15,8 @@ public class Sale
     
     
     [ForeignKey("ClientId")]
-    public Client Client { get; set; }  // A classe Client deve estar definida
+    private Client Client { get; set; }  // A classe Client deve estar definida
 
     [ForeignKey("EmployeeId")]
-    public Employee Employee { get; set; }  // A classe Employee deve estar definida
+    private Employee Employee { get; set; }  // A classe Employee deve estar definida
 }

@@ -13,8 +13,8 @@ public class SaleItems
     public double TotalValue { get; set; }
     
     [ForeignKey("SaleId")]
-    public Sale Sale { get; set; }
+    private Sale Sale { get; set; }
     
     [ForeignKey("ProductId")]
-    public Product Product { get; set; }
+    private Product Product { get; set; }
 }
