@@ -3,7 +3,14 @@
 public static class Print
 {
 
-    public static void MenuOptionInitial()
+    public static void InitialMenuOptions()
+    {
+        Console.WriteLine("1. Sales Management");
+        Console.WriteLine("2. Admin Menu");
+        Console.Write("Chose an option: ");
+    }
+
+    public static void AdminMenuOptions()
     {
         Console.Write(
             $"------------------- << MENU >> -------------------\n" +
@@ -19,7 +26,9 @@ public static class Print
             $"1. Add Empoyee\n" +
             $"2. Edit Employee\n" +
             $"3. Delete Empoyee\n" +
-            $"4. Employee Metrics");
+            $"4. Employee Metrics\n" +
+            $"Chose an option: ");
+            
     }
 
     public static void MenuEmployeeUpdateOptions()

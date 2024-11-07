@@ -22,7 +22,7 @@ public class OptionsMenuActions : IOptionsMenuActions
     public void OptionsInitialMenu()
     {
 
-        Print.MenuOptionInitial();
+        Print.AdminMenuOptions();
         var optionSelected = Console.ReadLine();
         
         if (optionSelected == "1")

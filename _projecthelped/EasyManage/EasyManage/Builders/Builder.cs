@@ -10,7 +10,7 @@ public class Builder
         Client client = new();
         try
         {
-            Console.Write("Digite o primeiro nome do cliente: ");
+            Console.Write("\nDigite o primeiro nome do cliente: ");
             client.FirstName = Console.ReadLine();
             Console.Write("Digite o último nome do cliente: ");
             client.LastName = Console.ReadLine();
@@ -33,11 +33,17 @@ public class Builder
         
         try
         {
+            Console.Write("\nDigite o primeiro nome do funcionário: ");
             employee.FirstName = Console.ReadLine();
+            Console.Write("Digite o último nome do funcionario: ");
             employee.LastName = Console.ReadLine();
+            Console.Write("Digite o CPF do funcionario: ");
             employee.Cpf = Console.ReadLine();
+            Console.Write("Digite a data de nascimento do funcionario no formato DD/MM/YYYY: ");
             employee.BirthDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
+            Console.Write("Digite o salário do funcionario: ");
             employee.Salary = double.Parse(Console.ReadLine());
+            Console.Write("Digite o Level do funcionario: ");
             employee.EEmployeeLevel = (EEmployeeLevel)int.Parse(Console.ReadLine());
             
         }

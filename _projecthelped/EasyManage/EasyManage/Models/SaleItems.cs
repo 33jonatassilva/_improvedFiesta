@@ -6,7 +6,7 @@ namespace EasyManage.Models;
 [PrimaryKey("Id")]
 public class SaleItems
 {
-    public int Id { get; set; }
+    public Guid Id { get; set; } = new Guid();
     public Guid SaleId { get; set; }
     public Guid ProductId { get; set; }
     public int Quantity { get; set; }

@@ -8,7 +8,7 @@ namespace EasyManage.Models;
 public class Sale
 {
     public Guid Id { get; private set; } = Guid.NewGuid();
-    public string ClientId { get; set; }
+    public string ClientId { get; set; } 
     public string EmployeeId { get; set; }
 
     public List<SaleItems> SaleItems { get; set; } = new List<SaleItems>();

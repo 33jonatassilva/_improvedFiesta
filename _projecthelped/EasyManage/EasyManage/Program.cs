@@ -4,6 +4,7 @@ using EasyManage.Data;
 using EasyManage.Repositories;
 using EasyManage.Repositories.Interfaces;
 using EasyManage.Services;
+using EasyManage.Services.Interfaces;
 using EasyManage.View;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -28,6 +29,8 @@ class Program
             services.AddDbContext<AppDbContext>()
                 .AddScoped<IClientRepository, ClientRepository>()
                 .AddScoped<IClientService, ClientService>()
+                .AddScoped<IEmployeeRepository, EmployeeRepository>()
+                .AddScoped<IEmployeeService, EmployeeService>()
                 .AddScoped<IOptionsMenuActions, OptionsMenuActions>();
         }
     }

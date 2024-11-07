@@ -150,4 +150,4 @@ C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.pdb
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.genruntimeconfig.cache
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\ref\EasyManage.dll
-C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.csproj.CopyComplete
+C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.csproj.Up2Date

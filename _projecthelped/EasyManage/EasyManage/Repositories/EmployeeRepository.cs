@@ -28,10 +28,7 @@ public class EmployeeRepository : IEmployeeRepository
     
         public Employee GetEmployeeById(string cpf)
         {
-            var employee =  _context.Employees.FirstOrDefault(x => x.Cpf == cpf);
-            _context.Employees.Remove(employee);
-
-            return employee;
+            return _context.Employees.FirstOrDefault(x => x.Cpf == cpf);
         }
 
         public void EmployeeUpdate(Employee employee)
