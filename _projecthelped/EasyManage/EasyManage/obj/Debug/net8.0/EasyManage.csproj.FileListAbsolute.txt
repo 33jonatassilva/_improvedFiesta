@@ -145,9 +145,9 @@ C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.AssemblyInfo.cs
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.csproj.CoreCompileInputs.cache
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.sourcelink.json
-C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.csproj.Up2Date
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.dll
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\refint\EasyManage.dll
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.pdb
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.genruntimeconfig.cache
 C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\ref\EasyManage.dll
+C:\GitHub\improved-fiesta\_projecthelped\EasyManage\EasyManage\obj\Debug\net8.0\EasyManage.csproj.CopyComplete
