@@ -13,10 +13,11 @@ public class Client : People
 
     public override string ToString()
     {
-        return $"Id: {Cpf}\n" +
+        return $"\n\nCpf: {Cpf}\n" +
                $"Name: {FirstName} {LastName}\n" +
                $"BirthDate: {BirthDate}\n" +
                $"LastPurchase: {LastPurchase}\n" +
                $"ClientBudgetRate: {EClientBudgetRate}";
+
     }
 }

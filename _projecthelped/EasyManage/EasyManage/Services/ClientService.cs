@@ -1,6 +1,6 @@
 ﻿
 using EasyManage.Models;
-using EasyManage.Repositories;
+using EasyManage.Repositories.Interfaces;
 
 
 namespace EasyManage.Services;
@@ -23,8 +23,8 @@ namespace EasyManage.Services;
         public Client GetClientById(string cpf)
             => _clientRepository.GetClientById(cpf);
         
-        public void ClientUpdate(string cpf, Client clientUpdate)
-            => _clientRepository.ClientUpdate(cpf, clientUpdate);
+        public void ClientUpdate(Client clientUpdate)
+            => _clientRepository.ClientUpdate(clientUpdate);
 
         public void DeleteClientById(string cpf)
             => _clientRepository.DeleteClient(cpf);
