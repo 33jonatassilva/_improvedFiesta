@@ -22,7 +22,7 @@ class Program
 
         var menu = serviceProvider.GetService<IOptionsMenuActions>();
         
-        if (menu != null) menu.OptionsInitialMenu();
+        if (menu != null) menu.InitialMenuSales();
 
         static void ConfigureServices(IServiceCollection services)
         {

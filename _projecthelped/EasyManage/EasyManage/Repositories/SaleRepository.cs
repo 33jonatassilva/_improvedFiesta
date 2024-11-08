@@ -16,7 +16,7 @@ public class SaleRepository : ISaleRepository
     
     public void AddSale(Sale sale)
     {
-        _context.Add(sale);
+        _context.Sales.Add(sale);
         _context.SaveChanges();
     }
 }

@@ -1,6 +1,8 @@
-﻿namespace EasyManage.Services.Interfaces;
+﻿using EasyManage.Models;
 
-public class ISaleService
+namespace EasyManage.Services.Interfaces;
+
+public interface ISaleService
 {
-    
+    void AddSale(Sale sale);
 }

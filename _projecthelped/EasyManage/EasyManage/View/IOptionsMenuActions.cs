@@ -3,4 +3,6 @@
 public interface IOptionsMenuActions
 {
     public void OptionsInitialMenu();
+
+    public void InitialMenuSales();
 }

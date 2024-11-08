@@ -18,6 +18,7 @@ public class SaleService : ISaleService
 
     public void AddSale(Sale sale)
     {
+        
         foreach (var item in sale.SaleItems)
         {
             item.TotalValue =  _productRepository.GetProductById(item.ProductId).Price * item.Quantity;

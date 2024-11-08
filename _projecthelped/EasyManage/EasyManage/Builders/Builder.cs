@@ -113,7 +113,7 @@ public class Builder
             while (continuer != "N" && continuer != "S")
             {
                 Console.Write("Deseja inserir mais itens do cliente? (s/n): ");
-                continuer = Console.ReadLine();
+                continuer = Console.ReadLine().ToUpper();
             }
 
             if (continuer == "N") insertMoreItems = false;

@@ -170,5 +170,6 @@ public class OptionsMenuActions : IOptionsMenuActions
     
     public void InitialMenuSales()
     {
+        _saleService.AddSale(Builder.Sale());
     }
 }
