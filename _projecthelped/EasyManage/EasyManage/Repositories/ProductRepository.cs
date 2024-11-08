@@ -20,9 +20,9 @@ public class ProductRepository : IProductRepository
     }
 
 
-    public Product GetProductById(Guid id)
+    public Product GetProductById(Guid productId)
     {
-        return _context.Products.FirstOrDefault(p => p.Id == id);
+        return _context.Products.FirstOrDefault(p => p.Id == productId);
     }
 
     
@@ -34,17 +34,24 @@ public class ProductRepository : IProductRepository
 
 
 
-    public void EditProduct(Product product)
+    public void UpdateProduct(Product product)
     {
-        _context.Products.Update(product);
+        var productToUpdate = _context.Products.FirstOrDefault(p => p.Id == product.Id);
+        
+        productToUpdate.Name = product.Name;
+        productToUpdate.Price = product.Price;
+        productToUpdate.Description = product.Description;
+        
+        _context.Products.Update(productToUpdate);
         _context.SaveChanges();
 
-        Console.WriteLine(product.ToString());
+        //Console.WriteLine(product.ToString());
     }
 
-    public void DeleteProduct(Product product)
+    public void DeleteProduct(Guid productId)
     {
-        _context.Products.Remove(product);
+        var productToDelete = _context.Products.FirstOrDefault(p => p.Id == productId);
+        _context.Products.Remove(productToDelete);
         _context.SaveChanges();
     }
 }

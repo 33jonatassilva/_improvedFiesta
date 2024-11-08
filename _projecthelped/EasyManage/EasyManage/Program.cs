@@ -31,6 +31,10 @@ class Program
                 .AddScoped<IClientService, ClientService>()
                 .AddScoped<IEmployeeRepository, EmployeeRepository>()
                 .AddScoped<IEmployeeService, EmployeeService>()
+                .AddScoped<IProductRepository, ProductRepository>()
+                .AddScoped<IProductService, ProductService>()
+                .AddScoped<ISaleRepository, SaleRepository>()
+                .AddScoped<ISaleService, SaleService>()
                 .AddScoped<IOptionsMenuActions, OptionsMenuActions>();
         }
     }

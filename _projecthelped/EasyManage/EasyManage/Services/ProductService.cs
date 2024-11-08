@@ -30,14 +30,25 @@ public class ProductService : IProductService
         _productRepository.AddProduct(product);
     }
 
-    public void EditProduct(Product product)
+    public void UpdateProduct(Product product)
     {
-        var _product = _productRepository.GetProductById(product.Id);
-        _product.Name = product.Name;
-        _product.Price = product.Price;
-        _product.Description = product.Description;
+        _productRepository.UpdateProduct(product);
+    }
+    
+    public void UpdateProduct(Guid productId, Product product)
+    {
+        var productToUpdate = _productRepository.GetProductById(productId);
+        productToUpdate.Name = product.Name;
+        productToUpdate.Price = product.Price;
+        productToUpdate.Description = product.Description;
         
-        _productRepository.EditProduct(_product);
+        _productRepository.UpdateProduct(productToUpdate);
+    }
+
+
+    public void DeleteProduct(Guid productId)
+    {
+        _productRepository.DeleteProduct(productId);
     }
     
 }

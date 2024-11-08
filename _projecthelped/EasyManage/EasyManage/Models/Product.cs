@@ -13,4 +13,13 @@ public class Product
     [MaxLength(100)]
     public string Description { get; set; }
     public double Price { get; set; }
+
+
+    public override string ToString()
+    {
+        return $"\n\nId: {Id}\n" +
+               $"Name: {Name}\n" +
+               $"Description: {Description}\n" +
+               $"Price: R${Price},00\n";
+    }
 }

@@ -9,6 +9,9 @@ public static class Print
         Console.WriteLine("2. Admin Menu");
         Console.Write("Chose an option: ");
     }
+    
+    
+    
 
     public static void AdminMenuOptions()
     {
@@ -24,11 +27,12 @@ public static class Print
     {
         Console.Write(
             $"1. Add Empoyee\n" +
-            $"2. Edit Employee\n" +
-            $"3. Delete Empoyee\n" +
-            $"4. Employee Metrics\n" +
+            $"2. Get All Employees\n" +
+            $"3. Get Employee by Id\n" +
+            $"4. Edit Employee\n" +
+            $"5. Delete Empoyee\n" +
+            $"6. Employee Metrics\n" +
             $"Chose an option: ");
-            
     }
 
     public static void MenuEmployeeUpdateOptions()
@@ -37,8 +41,9 @@ public static class Print
             $"1. Edit Name\n" +
             $"2. Edit LastName\n" +
             $"3. Edit BirthDate\n" +
-            $"4. Edit Client Budget Rate\n" +
-            $"5. Edit All\n" +
+            $"4. Salary\n" +
+            $"5. Edit Employee Level\n" +
+            $"6. Edit All\n" +
         
             $"Select an option: ");
     }
@@ -69,11 +74,25 @@ public static class Print
 
     public static void MenuProductsOption()
     {
-        Console.WriteLine(
-            $"Add Product\n" +
-            $"Edit Product\n" +
-            $"Delete Product\n" +
-            $"Employee Metrics");
+        Console.Write(
+            $"1. Add Product\n" +
+            $"2. Get All Products\n" +
+            $"3. Get Product By Id\n" +
+            $"4. Edit Product\n" +
+            $"5. Delete Product\n" +
+            $"Select an option: ");
+    }
+    
+    
+    public static void MenuProductsUpdateOptions()
+    {
+        Console.Write(
+            $"1. Edit Name\n" +
+            $"3. Edit Price\n" +
+            $"4. Edit Description\n" +
+            $"5. Edit All\n" +
+        
+            $"Select an option: ");
     }
     
     

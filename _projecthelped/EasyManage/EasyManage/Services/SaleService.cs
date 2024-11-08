@@ -1,9 +1,10 @@
 ﻿using EasyManage.Models;
 using EasyManage.Repositories.Interfaces;
+using EasyManage.Services.Interfaces;
 
 namespace EasyManage.Services;
 
-public class SaleService
+public class SaleService : ISaleService
 {
 
     private readonly ISaleRepository _saleRepository;

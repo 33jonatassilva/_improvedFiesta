@@ -6,9 +6,13 @@ public interface IProductService
 {
     List<Product> GetAllProducts();
 
-    Product GetProductById(Guid id);
+    Product GetProductById(Guid productId);
 
     void AddProduct(Product product);
 
-    void EditProduct(Product product);
+    void UpdateProduct(Product product);
+
+    //void UpdateProduct(Guid productId, Product product);
+    
+    void DeleteProduct(Guid productId);
 }
