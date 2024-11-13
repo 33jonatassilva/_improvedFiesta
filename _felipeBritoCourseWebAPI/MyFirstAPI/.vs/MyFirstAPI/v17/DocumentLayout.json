@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\model\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\model\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\myfirstapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\myfirstapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\model\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\model\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|c:\\github\\improved-fiesta\\_felipebritocoursewebapi\\myfirstapi\\myfirstapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E6F9864-2A4C-421D-BDB0-2598515C5B67}|MyFirstAPI\\MyFirstAPI.csproj|solutionrelative:myfirstapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MyFirstAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:46:16.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Services\\TokenService.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "MyFirstAPI\\Services\\TokenService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:33:42.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Key.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Key.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Key.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Key.cs",
+              "RelativeToolTip": "MyFirstAPI\\Key.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:32:12.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyFirstAPI",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\MyFirstAPI.csproj",
+              "RelativeDocumentMoniker": "MyFirstAPI\\MyFirstAPI.csproj",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\MyFirstAPI.csproj",
+              "RelativeToolTip": "MyFirstAPI\\MyFirstAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T18:31:43.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "MyFirstAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:43:16.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Model\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Model\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Model\\IEmployeeRepository.cs",
+              "RelativeToolTip": "MyFirstAPI\\Model\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:24:44.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Model\\Employee.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Model\\Employee.cs",
+              "RelativeToolTip": "MyFirstAPI\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:17:04.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MyFirstAPI\\appsettings.json",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\appsettings.json",
+              "RelativeToolTip": "MyFirstAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T18:30:45.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyFirstAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T18:22:34.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Program.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Program.cs",
+              "RelativeToolTip": "MyFirstAPI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:40:36.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\ViewModel\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeToolTip": "MyFirstAPI\\ViewModel\\EmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:46:37.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Model\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Model\\EmployeeRepository.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Model\\EmployeeRepository.cs",
+              "RelativeToolTip": "MyFirstAPI\\Model\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:33:04.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "MyFirstAPI\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:26:20.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
