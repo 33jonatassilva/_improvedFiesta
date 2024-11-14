@@ -62,25 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "MyFirstAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "MyFirstAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:46:16.801Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -104,21 +87,19 @@
               "RelativeToolTip": "MyFirstAPI\\Key.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:32:12.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T18:32:12.949Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MyFirstAPI",
+              "Title": "MyFirstAPI.csproj",
               "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\MyFirstAPI.csproj",
               "RelativeDocumentMoniker": "MyFirstAPI\\MyFirstAPI.csproj",
               "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\MyFirstAPI.csproj",
               "RelativeToolTip": "MyFirstAPI\\MyFirstAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-13T18:31:43.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T18:31:43.122Z"
             },
             {
               "$type": "Document",
@@ -130,8 +111,7 @@
               "RelativeToolTip": "MyFirstAPI\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:43:16.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:43:16.547Z"
             },
             {
               "$type": "Document",
@@ -143,8 +123,7 @@
               "RelativeToolTip": "MyFirstAPI\\Model\\IEmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:24:44.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:24:44.428Z"
             },
             {
               "$type": "Document",
@@ -156,8 +135,7 @@
               "RelativeToolTip": "MyFirstAPI\\Model\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:17:04.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:17:04.244Z"
             },
             {
               "$type": "Document",
@@ -169,8 +147,7 @@
               "RelativeToolTip": "MyFirstAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-13T18:30:45.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T18:30:45.884Z"
             },
             {
               "$type": "Document",
@@ -182,8 +159,7 @@
               "RelativeToolTip": "MyFirstAPI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-13T18:22:34.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T18:22:34.919Z"
             },
             {
               "$type": "Document",
@@ -195,8 +171,7 @@
               "RelativeToolTip": "MyFirstAPI\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:40:36.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:40:36.08Z"
             },
             {
               "$type": "Document",
@@ -208,8 +183,7 @@
               "RelativeToolTip": "MyFirstAPI\\ViewModel\\EmployeeViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:46:37.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:46:37.465Z"
             },
             {
               "$type": "Document",
@@ -221,8 +195,7 @@
               "RelativeToolTip": "MyFirstAPI\\Model\\EmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:33:04.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:33:04.03Z"
             },
             {
               "$type": "Document",
@@ -234,8 +207,23 @@
               "RelativeToolTip": "MyFirstAPI\\Context\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:26:20.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:26:20.722Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MyFirstAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\GitHub\\improved-fiesta\\_felipeBritoCourseWebAPI\\MyFirstAPI\\MyFirstAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MyFirstAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:46:16.801Z"
             }
           ]
         }
