@@ -22,7 +22,7 @@ public class ClientController : ControllerBase
         return Ok(new { message = "Client added successfully" });
     }
 
-    [HttpPost("update")]
+    [HttpPut("update")]
     public IActionResult Update([FromBody] Client client)
     {
         var existingClient = _clientRepository.GetById(client.Cpf);

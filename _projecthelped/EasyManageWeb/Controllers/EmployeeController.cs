@@ -22,7 +22,7 @@ public class EmployeeController : ControllerBase
         return Ok(new { message = "Employee added successfully" });
     }
 
-    [HttpPost("update")]
+    [HttpPut("update")]
     public IActionResult Update([FromBody] Employee employee)
     {
         var existingEmployee = _employeeRepository.GetById(employee.Cpf);

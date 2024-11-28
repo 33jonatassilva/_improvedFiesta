@@ -10,131 +10,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36a82f69-aa5a-4db5-b44c-6627e9d2a3e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EasyManageWeb.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EasyManageWeb.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Context/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/ClientController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/EmployeeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/SaleController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EasyManageWeb.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enums/EClientBudgetRate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enums/EEmployeeLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enums/EEmployeePermitionLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Folder.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Client.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Employee.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/People.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Sale.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/SaleItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/ClientRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/EmployeeRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/IClientRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/IEmployeeRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/ISaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/SaleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Azure.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Azure.Identity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Identity.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.Memory.Data.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.Security.Permissions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/FileContentIndex/64f759b9-e335-4a96-87f5-283670f2e2de.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/FileContentIndex/a2afde3f-a31c-4697-887e-8fcb1bceeeb7.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/FileContentIndex/a5f13dbe-8758-4321-945c-0a4542759346.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/FileContentIndex/c230166a-d24c-4577-925e-7d043a6cba7a.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/.vs/MyFirstAPI/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/MyFirstAPI/obj/Debug/net8.0/MyFirstAPI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/MyFirstAPI/obj/Debug/net8.0/MyFirstAPI.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/MyFirstAPI/obj/Debug/net8.0/MyFirstAPI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../_felipeBritoCourseWebAPI/MyFirstAPI/MyFirstAPI/obj/Debug/net8.0/MyFirstAPI.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EasyManage/.idea/.idea.EasyManage/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EasyManage/.idea/.idea.EasyManage/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/ProductController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositories/IProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositories/ProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EasyManage/EasyManage/obj/Debug/net8.0/EasyManage.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EasyManage/EasyManage/obj/Debug/net8.0/EasyManage.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EasyManage/EasyManage/obj/Debug/net8.0/EasyManage.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EasyManage/EasyManage/obj/Debug/net8.0/EasyManage.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyManageWeb.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EasyManageWeb/FileContentIndex/45f93e5e-7a00-455a-b912-e9d054701886.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EasyManageWeb/FileContentIndex/ce137cb9-3026-4073-a755-2b10c3419561.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EasyManageWeb/v17/.wsuo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EasyManageWeb/v17/DocumentLayout.backup.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EasyManageWeb/v17/DocumentLayout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasyManageWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EasyManageWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyManageWeb.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyManageWeb.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ClientController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ClientController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/SaleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SaleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/SaleItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/SaleItems.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/ISaleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/ISaleRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/SaleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/SaleRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.OpenApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/EasyManageWeb.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/EasyManageWeb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/EasyManageWeb.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/EasyManageWeb.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/EasyManageWeb.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/EasyManageWeb.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/net8.0/EasyManageWeb.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,20 +61,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.EasyManageWeb: IIS Express.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "XThreadsFramesViewSplitterKey": "0.3746479",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.EasyManageWeb: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3746479&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.EasyManageWeb: IIS Express">
     <configuration name="EasyManageWeb: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EasyManageWeb.csproj" />
@@ -232,6 +132,8 @@
       <updated>1731593048014</updated>
       <workItem from="1731593049118" duration="7041000" />
       <workItem from="1731611253678" duration="2879000" />
+      <workItem from="1732019936008" duration="3840000" />
+      <workItem from="1732639231938" duration="9235000" />
     </task>
     <servers />
   </component>
