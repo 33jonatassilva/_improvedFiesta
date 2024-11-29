@@ -1,5 +1,6 @@
 ﻿using EasyManageWeb.Models;
 using EasyManageWeb.Repositories;
+using EasyManageWeb.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 

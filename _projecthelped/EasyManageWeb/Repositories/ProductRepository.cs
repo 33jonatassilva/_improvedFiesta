@@ -1,5 +1,6 @@
 ﻿using EasyManageWeb.Context;
 using EasyManageWeb.Models;
+using EasyManageWeb.Repositories.Interfaces;
 
 namespace EasyManageWeb.Repositories;
 
@@ -26,8 +27,9 @@ public class ProductRepository : IProductRepository
         throw new NotImplementedException();
     }
 
-    public void Delete(Product product)
+    public void Delete(Guid id)
     {
+        var product = _context.Products.FirstOrDefault(x => x.Id == id);
         _context.Products.Remove(product);
         _context.SaveChanges();
     }

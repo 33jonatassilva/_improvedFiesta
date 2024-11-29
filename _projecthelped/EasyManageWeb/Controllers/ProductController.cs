@@ -1,5 +1,6 @@
 ﻿using EasyManageWeb.Models;
 using EasyManageWeb.Repositories;
+using EasyManageWeb.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -52,6 +53,13 @@ public class ProductController : ControllerBase
     {
         var product = _productRepository.GetById(id);
         return Ok(product);
+    }
+
+    [HttpDelete("delete/{id}")]
+    public IActionResult Delete([FromRoute] Guid id)
+    {
+        _productRepository.Delete(id);
+        return Ok();
     }
 
 

@@ -1,5 +1,6 @@
 ﻿using EasyManageWeb.Context;
 using EasyManageWeb.Models;
+using EasyManageWeb.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace EasyManageWeb.Repositories;

@@ -1,6 +1,6 @@
 ﻿using EasyManageWeb.Models;
 using Microsoft.AspNetCore.Mvc;
-using EasyManageWeb.Repositories;
+using EasyManageWeb.Repositories.Interfaces;
 
 namespace EasyManageWeb.Controllers;
 

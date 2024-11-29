@@ -1,6 +1,7 @@
 using EasyManageWeb.Context;
 using EasyManageWeb.Models;
 using EasyManageWeb.Repositories;
+using EasyManageWeb.Repositories.Interfaces;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 

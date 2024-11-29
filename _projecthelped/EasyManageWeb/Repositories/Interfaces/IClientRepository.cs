@@ -1,6 +1,6 @@
 ﻿using EasyManageWeb.Models;
 
-namespace EasyManageWeb.Repositories;
+namespace EasyManageWeb.Repositories.Interfaces;
 
 public interface IClientRepository
 {
