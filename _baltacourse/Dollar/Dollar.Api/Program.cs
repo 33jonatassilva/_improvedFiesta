@@ -1,41 +1,74 @@
+using Dollar.Api.Data;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(connectionString));
+
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(x =>
+    {x.CustomSchemaIds(n => n.FullName);});
+
+builder.Services.AddTransient<Handler>();
+
 var app = builder.Build();
 
-// Request - Requisição
-
-// GET, POST, PUT e DELETE
-// Obter, Criar, Atualizar, Excluir - CRUD
-// GET (NÃO TEM CORPO)
-// Requisição -> Cabeçalho e Corpo
-// POST, PUT, DELETE (Normalmente não tem corpo)
-// JSON - JavaScript Object Notation
-// {"name" : "jose"}
-// Binding -> Vínculo, Ligação, Elo
-// Transformar o objeto JSON em um objeto C# 
+app.UseSwagger();
+app.UseSwaggerUI();
 
 
-// Response - Resposta da Requisição
-// Cabeçalho e Corpo
-// Status Code - 404, 401, 403, 200, 201, 500, 400
+app.MapPost(
+        "/",
+        (Request request, Handler handler) => handler.Handle(request))
+    .WithName("GetCategory")
+    .WithSummary("Cria uma nova transação")
+    .Produces<Response>();
+    
+   
 
-// Endpoints -> URL para acesso
-// Convenções de mercado
-// https://localhost:0000/
-
-
-// Versão ou versionamento
-// Diversos Fronts
-// App - Apple Stores -> Produtos
-// -> QUEBRAR (Atualizar o App incluindo a descrição)
-// 2 dias
-// Contratos -> quebrou o contrato
-// -> Antes não precisava da desc e agora precisa
-// Versionamento
-
-
-app.MapGet("/", () => "Hello World!");
-app.MapPost("/", () => "Hello World!");
-app.MapPut("/", () => "Hello World!");
-app.MapDelete("/", () => "Hello World!");
+app.MapGet(
+    "/", 
+    () => "Hello World!");
+app.MapPut(
+    "/", () 
+        => "Hello World!");
+app.MapDelete(
+    "/", 
+    () => "Hello World!");
 
 app.Run();
+
+
+public class Request
+{
+    public string Title { get; set; } = string.Empty;
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
+    public int Type { get; set; } 
+    public decimal Amount { get; set; }
+    public long CategoryId { get; set; }
+    public string UserId { get; set; } = string.Empty;
+}
+
+
+public class Response
+{
+    public long Id { get; set; }
+    public string Title { get; set; }
+}
+
+
+public class Handler()
+{
+    public Response Handle(Request request)
+    {
+        return new Response
+        {
+            Id = 1,
+            Title = request.Title,
+        };
+    }
+}
