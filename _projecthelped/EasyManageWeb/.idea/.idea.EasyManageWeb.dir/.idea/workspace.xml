@@ -11,30 +11,24 @@
   <component name="ChangeListManager">
     <list default="true" id="36a82f69-aa5a-4db5-b44c-6627e9d2a3e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EasyManageWeb.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EasyManageWeb.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ClientController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ClientController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/EmployeeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProductController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/SaleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SaleController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/ClientRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/ClientRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/EmployeeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/EmployeeRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/IClientRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/Interfaces/IClientRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/IEmployeeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/Interfaces/IEmployeeRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/IProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/Interfaces/IProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/ISaleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/Interfaces/ISaleRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/ProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repositories/SaleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/SaleRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/EasyManageWeb.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/EasyManageWeb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/EasyManageWeb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/EasyManageWeb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/EasyManageWeb.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/EasyManageWeb.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_remembering/_one/Crud/Crud.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_remembering/_one/Crud/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_remembering/_one/Crud/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_remembering/_one/Crud/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_remembering/_one/Crud/appsettings.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.EasyManageWeb: IIS Express.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.3746479&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.EasyManageWeb: IIS Express.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "XThreadsFramesViewSplitterKey": "0.3746479",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.EasyManageWeb: IIS Express">
     <configuration name="EasyManageWeb: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EasyManageWeb.csproj" />
@@ -136,6 +131,7 @@
       <workItem from="1732639231938" duration="9235000" />
       <workItem from="1732825905358" duration="35000" />
       <workItem from="1732885109823" duration="11236000" />
+      <workItem from="1738850547159" duration="334000" />
     </task>
     <servers />
   </component>
