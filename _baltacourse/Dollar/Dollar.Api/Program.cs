@@ -1,4 +1,5 @@
 using Dollar.Api.Data;
+using Dollar.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -22,10 +23,10 @@ app.UseSwaggerUI();
 
 
 app.MapPost(
-        "/",
+        "/categories",
         (Request request, Handler handler) => handler.Handle(request))
-    .WithName("GetCategory")
-    .WithSummary("Cria uma nova transação")
+    .WithName("Categories : Create")
+    .WithSummary("Cria uma nova Categoria")
     .Produces<Response>();
     
    
@@ -46,29 +47,36 @@ app.Run();
 public class Request
 {
     public string Title { get; set; } = string.Empty;
-    public DateTime CreatedAt { get; set; } = DateTime.Now;
-    public int Type { get; set; } 
-    public decimal Amount { get; set; }
-    public long CategoryId { get; set; }
-    public string UserId { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
 }
 
 
 public class Response
 {
     public long Id { get; set; }
-    public string Title { get; set; }
+    public string Title { get; set; } = string.Empty;
 }
 
 
-public class Handler()
+public class Handler(AppDbContext dbContext)
 {
+    
     public Response Handle(Request request)
     {
+
+        var category = new Category()
+        {
+            Title = request.Title,
+            Description = request.Description
+        };
+        
+        dbContext.Categories.Add(category);
+        dbContext.SaveChanges();
+        
         return new Response
         {
-            Id = 1,
-            Title = request.Title,
+            Id = category.Id,
+            Title = category.Title,
         };
     }
 }
